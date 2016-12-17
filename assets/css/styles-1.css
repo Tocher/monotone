@@ -1202,6 +1202,13 @@ a:focus,
 --- Portfolio Styles ----
 -------------------------*/
 
+.container__hidden-item {
+    width: 100%;
+    top: -100%;
+    position: absolute;
+    background: rgba(255,255,255,.9);
+}
+
 #portfolio{
     background:#fff;
     color:#313131;
@@ -2077,13 +2084,16 @@ height: 450px;
 }
 
 .post-link:after{
-    margin-center:15px;
-    content:'\f105';
+    margin-left: 10px;
+    content: '\f105';
     font-size: 18px;
-    line-height: 14px;
+    line-height: 19px;
+    height: 19px;
+    display: inline-block;
     font-family: fontAwesome;
     -webkit-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
+    vertical-align: middle;
 }
 
 .post-link{
@@ -2921,6 +2931,9 @@ height: 450px;
 @media (max-width: 479px) {
     #projects-container .project-item{
         width: 100%;
+    }
+    .top-slider {
+        display: none;
     }
     
 }	
