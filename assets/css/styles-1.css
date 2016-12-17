@@ -2838,8 +2838,19 @@ height: 450px;
     }
     
     #site-nav{
-        max-height:400px;
-
+        background: #fff;
+        border-bottom: 1px solid #fff;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    /* mobile! */
+    .sr-only {
+        display: none !important;
+    }
+    #main-nav .nav a {
+        padding: 8px 10px !important;
+    }
+    .navbar-nav {
+        margin: 0 !important;
     }
     
     .dropdown .left-side.dropdown > a:after,
@@ -2932,10 +2943,10 @@ height: 450px;
     #projects-container .project-item{
         width: 100%;
     }
+    #home,
     .top-slider {
         display: none;
     }
-    
 }	
 
 
