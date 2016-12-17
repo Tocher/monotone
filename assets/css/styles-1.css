@@ -605,7 +605,8 @@ a:focus,
     color:#313131;
     opacity:0.5;
     -webkit-transition:opacity 0.2s ease-out;
-    transition:opacity 0.2s ease-out; 
+    transition:opacity 0.2s ease-out;
+    cursor: pointer;
 }
 
 #main-nav.stuck .nav .active > a,
@@ -1271,7 +1272,7 @@ a:focus,
     display:block;
     position:relative;
     margin:0;
-    width:33.33%;
+    width:33%;
     margin-bottom:0;
     border-right:1px solid #fff;
     border-bottom:1px solid #fff;
@@ -2519,28 +2520,28 @@ height: 450px;
 
 .scrollimation.fade-right{
     opacity:0;
-    -webkit-transform: translateX(-100px);
-    -moz-transform: translateX(-100px);
-    -ms-transform: translateX(-100px);
-    transform:translateX(-100px);
+    -webkit-transform: translate3d(-100px,0,0);
+    -moz-transform: translate3d(-100px,0,0);
+    -ms-transform: translate3d(-100px,0,0);
+    transform: translate3d(-100px,0,0);
     -webkit-transition: -webkit-transform .4s ease-out,opacity .4s ease-out;
     transition: transform .4s ease-out,opacity .4s ease-out;
 }
 
 .scrollimation.fade-right.in{
     opacity:1;
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    transform:translateX(0px);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .scrollimation.fade-left{
     opacity:0;
-    -webkit-transform: translateX(100px);
-    -moz-transform: translateX(100px);
-    -ms-transform: translateX(100px);
-    transform:translateX(100px);
+    -webkit-transform: translate3d(100px,0,0);
+    -moz-transform: translate3d(100px,0,0);
+    -ms-transform: translate3d(100px,0,0);
+    transform:translate3d(100px,0,0);
     -webkit-transition: -webkit-transform .4s ease-out,opacity .4s ease-out;
     transition: transform .4s ease-out,opacity .4s ease-out;
 }
@@ -2555,10 +2556,10 @@ height: 450px;
 
 .scrollimation.fade-up{
     opacity:0;
-    -webkit-transform: translateY(100px);
-    -moz-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    transform:translateY(100px);
+    -webkit-transform: translate3d(100px,0,0);
+    -moz-transform: translate3d(100px,0,0);
+    -ms-transform: translate3d(100px,0,0);
+    transform: translate3d(100px,0,0);
     -webkit-transition: -webkit-transform .4s ease-out,opacity .4s ease-in;
     transition: transform .4s ease-out,opacity .4s ease-in-out;
 }
@@ -3052,13 +3053,6 @@ background-size: cover;
 .jssora03r{
 background: url('img/angle-right.svg') no-repeat;
 background-size: cover;
-}
-
-#main-nav .nav .zakazat-btn{
-  transition: all 0.3s;
-  opacity: 0;
-  margin-right: -110px;
-  visibility: hidden;
 }
 
 

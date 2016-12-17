@@ -1,16 +1,16 @@
 $(document).ready(function() {
-  document.onscroll = function(e) {
-    if(window.pageYOffset > 1980){
-      $(".zakazat-btn").css("opacity", 0.5);
-      $(".zakazat-btn").css("margin-right", 0);
-      $(".zakazat-btn").css("visibility", "visible");
-    }
-    else{
-      $(".zakazat-btn").css("opacity", 0);
-      $(".zakazat-btn").css("margin-right", "-110px");
-      $(".zakazat-btn").css("visibility", "hidden");
-    }
-  }
+//  document.onscroll = function(e) {
+//    if(window.pageYOffset > 1980){
+//      $(".zakazat-btn").css("opacity", 0.5);
+//      $(".zakazat-btn").css("margin-right", 0);
+//      $(".zakazat-btn").css("visibility", "visible");
+//    }
+//    else{
+//      $(".zakazat-btn").css("opacity", 0);
+//      $(".zakazat-btn").css("margin-right", "-110px");
+//      $(".zakazat-btn").css("visibility", "hidden");
+//    }
+//  }
 
   // $("#brief").validate({
   //       rules: {
