@@ -3,4 +3,61 @@
 $(document).ready(function() {
     $('#projects-container > .project-item').hoverdir({hoverDelay: 0, hoverElem: '.hover-mask'});
     
+    $("#brief").validate({
+        rules: {
+           'BriefForm[contact]': { required: true },
+           'BriefForm[phone]': { required: true },
+           'BriefForm[email]': { required: true, email: true }
+        },
+        submitHandler: function(form) {
+          var form = $(form),
+              data = {
+          contact: form.find('#contact').val(),
+          company: form.find('#company').val(),
+          phone: form.find('#phone').val(),
+          email: form.find('#email').val(),
+          budget: form.find('#budget').val(),
+          attachment: form.find('#attachment').val(),
+          services0: form.find('#BriefForm_services_0').val(),
+          services1: form.find('#BriefForm_services_1').val(),
+          services2: form.find('#BriefForm_services_2').val(),
+          services3: form.find('#BriefForm_services_3').val(),
+          services4: form.find('#BriefForm_services_4').val(),
+          services5: form.find('#BriefForm_services_5').val(),
+          desires: form.find('#desires').val()
+        };
+
+    $.ajax({
+      method: 'POST',
+      url: '../send_form_email.php',
+      data: data
+    })
+    .done(function( data ) {
+        console.log('send');
+        $('.close-button').click();
+    });
+  },
+  invalidHandler: function(form, validator) {
+  }
+     });
+   var popupVisible = 0;
+   $('.head__zakaz').click(function(){
+     if(popupVisible) {
+       $(".popup__overlay").css("top", "-"+$(window).height()+"px");
+       popupVisible = 0;
+       $(".popup__overlay").css("bottom", "auto");
+     }
+     else {
+       $(".popup__overlay").css("bottom", "0");
+       $(".popup__overlay").css("top", "123px");
+       popupVisible = 1;
+     }
+     })
+     $('.close-button').click(function(){
+       $(".popup__overlay").css("top", "-"+$(window).height()+"px");
+       $(".popup__overlay").css("bottom", "auto");
+       popupVisible = 0;
+     })
+
+
 });
