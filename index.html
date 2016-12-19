@@ -17,46 +17,46 @@
 		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-		
+
 		<!-- ==============================================
 		CSS
-		=============================================== -->    
+		=============================================== -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/font-awesome.css">
 		<link rel="stylesheet" href="assets/css/flexslider.css">
 		<link rel="stylesheet" href="assets/css/styles-1.css">
-		
-		
+
+
 		<!-- ==============================================
 		Fonts
 		=============================================== -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500&amp;subset=cyrillic" rel="stylesheet">
 
-		
+
 		<!-- ==============================================
 		JS
 		=============================================== -->
-			
+
 		<!--[if lt IE 9]>
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
-		
+
 		<script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
-		
-		
+
+
 	</head>
-  
+
 	<body data-spy="scroll" data-target="#main-nav" data-offset="400">
-	
+
 		<!--=== PAGE PRELOADER ===-->
 		<div id="page-loader"><span class="page-loader-gif">Загрузка...</span></div>
-		
+
 		<!-- ==============================================
 		HEADER
 		=============================================== -->
-		 
+
 		<header id="home">
-			
+
   <div class="top-slider" id="slider">
     <div style="position: relative; width: 100%; overflow: hidden;">
       <div style="position: relative; left: 50%; width: 5000px; text-align: center; margin-left: -2500px;">
@@ -64,7 +64,7 @@
         <div id="slider1_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1920px; height: 1080px;">
           <!-- Slides Container -->
           <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1920px;  height: 1080px; overflow: hidden;">
-            
+
 <div>
           <img u="image" src="./assets/images/monotone_zastavka.jpg" border="0" style="top: 0px; left: 0px; width: 100%; height: 100%; position: absolute;">
             </div>
@@ -76,12 +76,73 @@
                 <div class="onslide-textarea__title">ЛОГОТИП СТАРТАПУ <br>БЕСПЛАТНО!</div>
                 <p class="text-center"><a class="btn btn-quattro" href="news_post.html" target="_blank">ПОДРОБНЕЕ</a></p>
                 </div>
-               
+
               </div>
            </div>
         </div>
       </div>
     </div>
+
+    <!-- popup -->
+
+    <div class="popup__overlay">
+    <div class="close-button">
+      <svg width="12px" height="12px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+        <path d="M507.331 411.33c-0.002-0.002-0.004-0.004-0.006-0.005l-155.322-155.325 155.322-155.325c0.002-0.002 0.004-0.003 0.006-0.005 1.672-1.673 2.881-3.627 3.656-5.708 2.123-5.688 0.912-12.341-3.662-16.915l-73.373-73.373c-4.574-4.573-11.225-5.783-16.914-3.66-2.080 0.775-4.035 1.984-5.709 3.655 0 0.002-0.002 0.003-0.004 0.005l-155.324 155.326-155.324-155.325c-0.002-0.002-0.003-0.003-0.005-0.005-1.673-1.671-3.627-2.88-5.707-3.655-5.69-2.124-12.341-0.913-16.915 3.66l-73.374 73.374c-4.574 4.574-5.784 11.226-3.661 16.914 0.776 2.080 1.985 4.036 3.656 5.708 0.002 0.001 0.003 0.003 0.005 0.005l155.325 155.324-155.325 155.326c-0.001 0.002-0.003 0.003-0.004 0.005-1.671 1.673-2.88 3.627-3.657 5.707-2.124 5.688-0.913 12.341 3.661 16.915l73.374 73.373c4.575 4.574 11.226 5.784 16.915 3.661 2.080-0.776 4.035-1.985 5.708-3.656 0.001-0.002 0.003-0.003 0.005-0.005l155.324-155.325 155.324 155.325c0.002 0.001 0.004 0.003 0.006 0.004 1.674 1.672 3.627 2.881 5.707 3.657 5.689 2.123 12.342 0.913 16.914-3.661l73.373-73.374c4.574-4.574 5.785-11.227 3.662-16.915-0.776-2.080-1.985-4.034-3.657-5.707z"></path>
+      </svg>
+    </div>
+    <div class="popup__content">
+      <article class="brief-content">
+        <header>
+            <h4>Отправить заявку</h4>
+            <hr>
+        </header>
+        <form enctype="multipart/form-data" id="brief">
+          <div class="brief__field-container brief__field-container-required ">
+            <input placeholder="Контактное лицо" id="contact" name="BriefForm[contact]" type="text">
+            <span class="brief__field-required">*</span>
+          </div>
+          <div class="brief__field-container container-right">
+            <input placeholder="Компания" id="company" name="BriefForm[company]" type="text">
+          </div>
+          <div class="brief__field-container brief__field-container-required ">
+            <input placeholder="Телефон" id="phone" name="BriefForm[phone]" type="text">
+            <span class="brief__field-required">*</span>
+          </div>
+          <div class="brief__field-container brief__field-container-required   container-right ">
+            <input placeholder="E-mail" id="email" name="BriefForm[email]" type="email">
+            <span class="brief__field-required">*</span>
+          </div>
+          <div class="brief__field-container brief__field-container-required ">
+            <input min="0" placeholder="Бюджет проекта (руб.)" id="budget" name="BriefForm[budget]" type="number">
+          </div>
+          <div class="brief__field-container container-right">
+            <input id="ytattachment" type="hidden" value="" name="uploaded_file">
+            <input placeholder="Прикрепить файл с данными" id="attachment" name="uploaded_file" type="file">
+            <input placeholder="Прикрепить файл с данными" id="fileName" name="BriefForm[fileName]" type="text">
+            <span class="filesearch"></span>
+          </div>
+          <div class="brief__field-container container-wide ">
+            <ul class="brief__service-branch__services-list" id="services-service-branch-development" style="display: block;">
+              <li><input id="BriefForm_services_0" value="webdev" type="checkbox" name="BriefForm[services][]"><label for="BriefForm_services_0">Разработка сайта</label></li>
+              <li><input id="BriefForm_services_1" value="ownstyle" type="checkbox" name="BriefForm[services][]"><label for="BriefForm_services_1">Фирменный стиль</label></li>
+              <li><input id="BriefForm_services_2" value="logo" type="checkbox" name="BriefForm[services][]"><label for="BriefForm_services_2">Логотип</label></li>
+              <li><input id="BriefForm_services_3" value="poly" type="checkbox" name="BriefForm[services][]"><label for="BriefForm_services_3">Дизайн полиграфии</label></li>
+              <li><input id="BriefForm_services_4" value="outdoor" type="checkbox" name="BriefForm[services][]"><label for="BriefForm_services_4">Outdoor</label></li>
+              <li><input id="BriefForm_services_5" value="production" type="checkbox" name="BriefForm[services][]"><label for="BriefForm_services_5">Продакшн</label></li>
+            </ul>
+          </div>
+          <div class="brief__field-container container-wide ">
+            <textarea cols="40" rows="4" maxlength="10000" placeholder="Ваши пожелания" class="brief__field-desires" id="desires" name="BriefForm[desires]"></textarea>    </div>
+          <div class="brief__form-errors"></div>
+          <p class="brief-required-msg">*&nbsp;—&nbsp;поля, обязательные для заполнения</p>
+          <input class="brief-submit" id="create" type="submit" name="yt0" value="Отправить">
+        </form>
+      </article>
+    </div>
+  </div>
+
+  <!-- popup end -->
 
     <!-- hand start -->
 
@@ -94,20 +155,20 @@
         </div>
           <div class="ui-help__separator"></div>
         <div class="ui-help__text ui-help__text_horizontal">Используйте мышь для смены слайдов</div>
-      
+
         <div class="ui-help__keyboard">
           <path class="ui-help__keyboard__button ui-help__keyboard__button_down" fill-rule="evenodd" clip-rule="evenodd" fill="#5F3FFF" d="M38.004 44H26.997C23.694 44 21 41.305 21 37.992V27.008C21 23.694 23.694 21 26.997 21h11.007C41.314 21 44 23.694 44 27.008v10.984C44 41.305 41.314 44 38.004 44zm0-2a4.01 4.01 0 0 0 3.998-4.008V27.008A4.008 4.008 0 0 0 38.004 23H26.997A3.995 3.995 0 0 0 23 27v11c0 2.212 1.786 4 3.997 4h11.007zM35.23 30l-2.798 6.566L29.635 30h5.594z"/><path class="ui-help__keyboard__button ui-help__keyboard__button_left" fill-rule="evenodd" clip-rule="evenodd" fill="#5F3FFF" d="M0 38.004V26.997C0 23.694 2.695 21 6.008 21h10.985C20.306 21 23 23.694 23 26.997v11.007C23 41.314 20.306 44 16.993 44H6.008C2.695 44 0 41.314 0 38.004zm2 0a4.01 4.01 0 0 0 4.008 3.998h10.985A4.01 4.01 0 0 0 21 38.004V26.997C21 24.787 19.213 23 17 23H6c-2.212 0-4 1.786-4 3.997v11.007zm12-2.775L7.434 32.43 14 29.635v5.594z"/><path class="ui-help__keyboard__button ui-help__keyboard__button_top" fill-rule="evenodd" clip-rule="evenodd" fill="#5F3FFF" d="M44 6.008v10.984C44 20.306 41.314 23 38.004 23H26.997C23.694 23 21 20.306 21 16.992V6.008C21 2.695 23.694 0 26.997 0h11.007C41.314 0 44 2.695 44 6.008zM26.997 2A3.995 3.995 0 0 0 23 6v11c0 2.212 1.786 4 3.997 4h11.007c2.2 0 3.998-1.795 3.998-4.008V6.008A4.01 4.01 0 0 0 38.004 2H26.997zm2.638 12l2.797-6.566L35.23 14h-5.595z"/><path class="ui-help__keyboard__button ui-help__keyboard__button_right" fill-rule="evenodd" clip-rule="evenodd" fill="#5F3FFF" d="M58.992 44H48.008C44.694 44 42 41.314 42 38.004V26.997C42 23.694 44.694 21 48.008 21h10.984C62.305 21 65 23.694 65 26.997v11.007C65 41.314 62.305 44 58.992 44zM63 26.997A3.995 3.995 0 0 0 59 23H48c-2.212 0-4 1.786-4 3.997v11.007c0 2.2 1.795 3.998 4.008 3.998h10.984A4.01 4.01 0 0 0 63 38.004V26.997zm-12 2.638l6.566 2.797L51 35.23v-5.595z"/></svg>
           </div>
-        </div>  
+        </div>
       </div>
     </div>
-    
+
     <!-- hand end -->
 
   </div>
-	
-	<a class="scroll-button scrollto" href="#"><i class="fa fa-angle-down"></i></a>	
-								
+
+	<a class="scroll-button scrollto" href="#"><i class="fa fa-angle-down"></i></a>
+
 </header><!--End header -->
 
 		<!-- ==============================================
@@ -118,23 +179,23 @@
 			<div class="container">
 
 
-			
+
 				<div class="navbar-header">
 
 
-				
+
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
 						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
-					
+
 					<!-- ======= LOGO ========-->
 					<a class="navbar-brand scrollto" href="#home">
-						
+
 						<img class="site-logo" src="assets/images/logo_monotone.svg" alt="monotonedesignstudio" />
 					</a>
-					
+
 				</div>
-				
+
 				<div id="site-nav" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="sr-only">
@@ -143,25 +204,25 @@
 						<li>
 							<a href="#about" class="scrollto">О студии</a>
 						</li>
-						
+
 						<li>
 							<a href="#services" class="scrollto">Услуги</a>
 						</li>
 						<li>
 							<a href="#portfolio" class="scrollto">Портфолио</a>
 						</li>
-						
-						
+
+
 						<li>
 							<a href="#news" class="scrollto"> Новости</a>
-		
+
 						</li>
 						<li>
 							<a href="#contact" class="scrollto">Контакты</a>
 						</li>
 						<li>
-				            <a class="text-item head__zakaz zakazat-btn">Заказать</a>
-			            </li>
+	            <a class="text-item head__zakaz zakazat-btn">Заказать</a>
+            </li>
 
 
 				<ul class="nav navbar-nav navbar-right">
@@ -176,210 +237,210 @@
 
 					</ul>
 				</div><!--End navbar-collapse -->
-				
+
 			</div><!--End container -->
-			
+
 		</div><!--End main-nav -->
 
 		<!-- ==============================================
 		ABOUT
-		=============================================== -->			
-		
+		=============================================== -->
+
 
 		<section id="about" class="white-bg padding-top-bottom">
 			<div class="container">
-			
+
 				<br><h1 class="section-title">Наша студия занимается <br>графическим дизайном </h1>
 
 
 								<br><p class="section-new">Разрабатывает логотипы, фирменные стили любого уровня сложности, а также красивые и удобные сайты.
 <br>Наша студия — место, в котором задачи клиентов решаются творческим путем
-				
-			
-				
-					
+
+
+
+
 				</div><!--End row-->
-				
+
 			</div><!--End container -->
-			
+
 		</section><!--End Call to Action -->
-		
+
 		<!-- ==============================================
 		FEATURES
 		=============================================== -->
 		<section class="white-bg padding-top-bottom">
-		
+
 			<div class="container features">
-	
+
 				<div class="row">
-				
+
 					<div class="col-sm-5 col-sm-offset-1 scrollimation fade-right">
-						
+
 						<div class="media">
 							<div class="icon pull-right">
 								<i class="media-object icon-1 fa fa-handshake-o"></i>
 								<i class="media-object icon-2 fa fa-handshake-o"></i>
 							</div>
-							
+
 							<div class="media-body text-right">
 								<h4>С нами надежно</h4>
 								<p>Мы выполняем обещания и несем ответственность за результат.Работаем качественно, соблюдаем сроки и договоренности.</p><br>
 							</div>
 						</div>
-					
+
 						<div class="media">
 							<div class="icon pull-right">
 								<i class="media-object icon-1 fa fa-thumbs-up"></i>
 								<i class="media-object icon-2 fa fa-thumbs-up"></i>
 							</div>
-							
-							
-							
+
+
+
 							<div class="media-body text-right">
 								<h4>С нами комфортно</h4>
 								<p>У нас понятные схемы работы. Мы своевременно инфорируем о процессе на каждом этапе. соответствуют ожиданиям наших клиентов.</p>
 							</div>
 						</div>
-						
+
 					</div>
-					
+
 					<div class="col-sm-5 scrollimation fade-left">
-						
+
 						<div class="media">
 							<div class="icon pull-left">
 								<i class="media-object icon-1 fa fa-heart-o"></i>
 								<i class="media-object icon-2 fa fa-heart"></i>
 							</div>
-							
+
 							<div class="media-body">
 								<h4>С нами легко</h4>
 								<p>Мы внимательны к потребностям клиентов. Предлагаем решения, которые
-эффективно справляются с поставленными задачами и максимально 
+эффективно справляются с поставленными задачами и максимально
 соответствуют ожиданиям наших клиентов.</p>
 							</div>
 						</div>
-						
+
 						<div class="media">
 							<div class="icon pull-left">
 								<i class="media-object icon-1 fa fa-cog"></i>
 								<i class="media-object icon-2 fa fa-cogs"></i>
 							</div>
-							
+
 							<div class="media-body">
 								<h4>С нами интересно</h4>
 								<p>Для нас каждый проект — это уникальный и интересный опыт, который помогает нам развиваться.</p>
 							</div>
 						</div>
-						
+
 					</div>
-					
+
 				</div>
-			
+
 			</div>
-			
+
 		</section>
-		
+
 		<!-- ==============================================
 		CALL TO ACTION
 		=============================================== -->
-		
+
 
 
 
     <section class="parallax-bg padding-top-bottom2 cta-image" data-parallax-background="assets/images/laptop-bg.jpg" data-stellar-background-ratio=".7">
-		
+
 			<div class="container">
-				
+
 				<div class="row">
-					
-				
+
+
 				<h1 class="section-new">Мы – команда профессиональных дизайнеров, которые знают и любят своё дело. Дизайн для нас -  не просто работа. Это образ мышления и стиль жизни.</p><br><br>
 				</div>
 
-						
+
 						<p> </p>
-						
-						
-						
+
+
+
 					</div>
-				
+
 				</div>
-			
+
 			</div>
-			
+
 		</section>
-		
+
 		<!-- ==============================================
 		SERVICES
 		=============================================== -->
 		<section id="services" class="white-bg padding-top-bottom">
-		
+
 			<div class="container">
-				
+
 				<h1 class="section-title">Наши услуги</h1>
 				<h1 class="section-new">Мы создаем эффективные решения для бизнеса</p>
 
 
 				<div class="row services">
-				
+
 					<div class="col-md-4 col-sm-6 item text-center scrollimation fade-right d1">
-				
+
 						<div class="icon">          <div class="types__icon">
             <div style="width:120px; height:120px; margin:0 auto" id="outdoor-svg"></div>
           </div></div>
 		<h3><a href="logotype.html">Логотип</a></h3>
-				
-					
+
+
 						<p>Логотип. Создаем оригинальный, современный логотип. Доработка до 100% согласования с клиентом.</p>
-						
+
 					</div>
-					
+
 					<div class="col-md-4 col-sm-6 item text-center scrollimation fade-right">
-				
+
 						<div class="icon">          <div class="types__icon">
             <div style="width:120px; height:120px; margin:0 auto" id="company-style-svg"></div>
           </div></div>
 					<h3>Фирменный стиль</h3>
 						<p>Визуальный брендинг. Фирменные стили, составляем бренд-буки, проводим <br>работы по ребрендингу.</p>
-						
+
 					</div>
-					
+
 					<div class="col-md-4 col-sm-6 item text-center scrollimation fade-left">
-				
+
 						<div class="icon">          <div class="types__icon">
             <div style="width:120px; height:120px; margin:0 auto" id="logo-svg"></div>
           </div></div>
 						<h3>Дизайн полиграфии</h3>
 						<p>Дизайн периодических изданий, журналов, буклетов, календарей, афиш, визитных карточек и т.д..</p>
-						
+
 					</div>
-					
-					
-					
+
+
+
 				</div>
 					<div class="row services">
 					<div class="col-md-4 col-sm-6 item text-center scrollimation fade-right d1">
 					<div class="icon"><div class="types__icon"><div style="width:120px; height:120px; margin:0 auto" id="web-svg">
-						
+
 					</div></div></div>
 					<h3>Outdoor</h3>
 					<p>Разработка рекламных концепций и дизайна для носителей <br>большого формата.</p>
-						
+
 					</div>
-					
+
 					<div class="col-md-4 col-sm-6 item text-center scrollimation fade-right">
-				
+
 						<div class="icon">          <div class="types__icon">
             <div style="width:120px; height:120px; margin:0 auto" id="prod-svg"></div>
           </div></div>
 
 						<h3>Веб-дизайн</h3>
 						<p>Разработка сайтов под ключ.<br>UX дизайн.</p>
-						
+
 					</div>
-					
+
 					<div class="col-md-4 col-sm-6 item text-center scrollimation fade-left">
-				
+
 						<div class="icon">          <div class="types__icon">
             <div style="width:120px; height:120px; margin:0 auto" id="poly-svg"></div>
           </div></div>
@@ -387,26 +448,26 @@
 
 						<h3>Продакшн</h3>
 						<p>Реализация проектов и печати. <br>Рекламные видео. <br>Фотопродакшн.</p>
-						
+
 					</div>
-				
-				
-				
+
+
+
 			</div>
-			
+
 		</section>
-		
-		
+
+
 
 		<!-- ==============================================
 		PORTFOLIO
 		=============================================== -->
 		<section id="portfolio" class="padding-top">
-		
+
 			<div class="container">
-				
+
 				<h1 class="section-title">Портфолио</h1>
-				
+
 				<!--==== Portfolio Filters ====-->
 				<div id="filter-works">
 					<ul>
@@ -431,16 +492,16 @@
 						</li>
 					</ul>
 				</div><!--End portfolio filters -->
-				
+
 			</div>
-		
+
 			<div class="masonry-wrapper">
-			
+
 				<div id="projects-container">
-				
+
 					<!-- ==============================================
 					SINGLE PROJECT ITEM
-					=============================================== -->	
+					=============================================== -->
 					<article class="project-item poligraf">
 						<img class="img-responsive project-image" src="assets/images/glavnaya16.jpg"><!--Project thumb -->
 						<a href="task.html" class="hover-mask">
@@ -454,8 +515,8 @@
 								</div>
 							</div>
 						</div>
-					</article><!--End Project Item -->				
-					
+					</article><!--End Project Item -->
+
 					<article class="project-item identity logo">
 					<img class="img-responsive project-image" src="assets/images/glavnaya13.jpg" alt=""><!--Project thumb -->
 						<a href="task.html" class="hover-mask">
@@ -497,7 +558,7 @@
 						<p>Полиграфия</p><!--Project Subtitle -->
 						</div>
 					</article><!--End Project Item -->
-					
+
 					<article class="project-item identity saite">
  					<img class="img-responsive project-image" src="assets/images/glavnaya15.jpg" alt=""><!--Project thumb -->
 					<div class="hover-mask">
@@ -507,10 +568,10 @@
 					</article><!--End Project Item -->
 
 
-				
+
 					<!-- ==============================================
 					SINGLE PROJECT ITEM
-					=============================================== -->	
+					=============================================== -->
 					<div class="projects-more">
                     <article class="project-item poligraf">
 					<img class="img-responsive project-image" src="assets/images/calendar_prewie2.jpg" alt=""><!--Project thumb -->
@@ -519,8 +580,8 @@
 					<p>Полиграфия</p><!--Project Subtitle -->
 						</div>
 						</article>
-						<!--End Project Item -->				
-					
+						<!--End Project Item -->
+
 					<article class="project-item identity logo">
 					<img class="img-responsive project-image" src="assets/images/glavnaya2.jpg" alt=""><!--Project thumb -->
 					<div class="hover-mask">
@@ -553,9 +614,9 @@
 					<h2 class="project-title">Логотип для компании <br>SMM продвижения "Timrom"</h2><!--Project Title -->
 					<p>Логотип</p><!--Project Subtitle -->
 					</div>
-						
-						
-						
+
+
+
 					</article><!--End Project Item -->
 					<article class="project-item poligraf">
 					<img class="img-responsive project-image" src="assets/images/glavnaya6.jpg" alt=""><!--Project thumb -->
@@ -564,7 +625,7 @@
 					<p>Полиграфия</p><!--Project Subtitle -->
 					</div>
 					</article><!--End Project Item -->
-					
+
 					<article class="project-item identity logo">
  					<img class="img-responsive project-image" src="assets/images/glavnaya7.jpg" alt=""><!--Project thumb -->
 					<div class="hover-mask">
@@ -572,7 +633,7 @@
 					<p>Логотип</p><!--Project Subtitle -->
 					</div>
 					</article><!--End Project Item -->
-					
+
 					<article class="project-item illustration logo">
 					<img class="img-responsive project-image" src="assets/images/glavnaya8.jpg" alt=""><!--Project thumb -->
 					<div class="hover-mask">
@@ -585,142 +646,142 @@
 				</div>
 
 					<be><p class="text-center"><a class="btn btn-quattro2 btn-more" href="---" target="_blank">ПОСМОТРЕТЬ БОЛЬШЕ РАБОТ</a>
-					</article><!--End Project Item -->	
+					</article><!--End Project Item -->
 
 
-				</div><!-- End projects --> 
-</div><!-- End container --> 
+				</div><!-- End projects -->
+</div><!-- End container -->
 
 
 </section>
 
 
-		
 
-	
-		
+
+
+
 		<!-- ==============================================
 		NEWS
-		=============================================== -->			
+		=============================================== -->
 		<section id="news" class="white-bg padding-top-bottom">
-		
+
 			<h1 class="section-title">Новости</h1><br><br>
-			
-			
+
+
 			<div class="container">
-			
+
 				<div class="row">
-				
+
 					<article class="col-sm-6 post-entry">
-					
+
 						<header class="post-header">
 							<a class="post-thumb" href="image-post.html" title="Read post: Post with single featured image">
 								<img class="img-responsive" src="assets/images/zastavka.jpg" alt="" />
 							</a>
-							
+
 							<h2 class="post-title"><a href="news_post.html" title="Read post: Post with single featured image">Конкурс: логотип стартапу бесплатно!</a></h2>
-							
+
 							<ul class="post-meta small">
 								<li><i class="fa fa-calendar"></i><a href="#">4 Ноября 2016</a></li>
-							
-								
+
+
 							</ul>
 						</header>
-						
+
 						<p>Мы рады помочь активным, молодым и талантливым. <br>Наша студия разработает логотип одному проекту бесплатно. <br>Который будет выбран 30 декабря</p>
-						
+
 						<a class="post-link" href="image-post.html" title="Read post: Post with single featured image">Подробнее</a>
-						
+
 					</article>
-				
+
 					<article class="col-sm-6 post-entry">
-					
+
 						<header class="post-header">
 							<a class="post-thumb" href="slider-post.html" title="Read post: Post with featured slider">
 								<img class="img-responsive" src="assets/images/zastavka_novosti2.jpg" alt="" />
 							</a>
-							
+
 							<h2 class="post-title"><a href="slider-post.html" title="Read post: Post with featured slider">Cпецпредлложение по созданию презентации для Вашего бизнеса!</a></h2>
-							
+
 							<ul class="post-meta small">
 								<li><i class="fa fa-calendar"></i><a href="#">8 Ноября 2016</a></li>
-							
+
 
 							</ul>
 						</header>
-						
+
 						<p></p>
-						
+
 						<a class="post-link" href="slider-post.html" title="Read post: Post with featured slider">Подробнее</a>
-						
+
 					</article>
-				
-				
-			
+
+
+
 		</section>
-		
+
 		<!-- ==============================================
 		CALL TO ACTION
-		=============================================== -->			
+		=============================================== -->
 
 
 		<!-- ==============================================
 		CONTACT
 		=============================================== -->
 		<section id="contact" class="gmap-bg light-typo padding-top-bottom">
-		
+
 			<div id='gmap'></div>
 			<div id="toggle-map"><span class="show-map-text">Как нас найти</span><span class="hide-map-text">Мы тут</span></div>
-			
+
 			<div class="container"><br><br>
-			
+
 				<h1 class="section-title">Контакты</h1>
 				<h1 class="section-new">С чего начать работу с нами? <br>Вы можете просто позвонить нам по телефону или <br>написать письмо на электронную почту</p><br><br>
-				
+
 				<div class="row margin-bottom">
-				
+
 					<div class="col-sm-3 col-sm-offset-1 text-center contact-item scrollimation fade-up">
-					
+
 						<div class="icon"><i class="fa fa-phone fa-fw"></i></div>
 						<h2>Звоните нам</h2>
 						<p>+375(29) 355-33-63</p>
-					
+
 					</div>
-				
+
 					<div class="col-sm-4 text-center contact-item scrollimation fade-up d1">
-					
+
 						<a class="icon" href="http://goo.gl/maps/0m7WQ" target="_blank"><i class="fa fa-map-marker fa-fw"></i></a>
 						<h2>Приходите к нам</h2>
 						<p>ул. Революционная 17 <br/>4 этаж , 22 офис</p>
 
 
-						
+
 					</div>
-					
+
 					<div class="col-sm-3 text-center contact-item scrollimation fade-up d2">
 
 					<a class="icon" href="mailto:info@monotone.by"><i class="fa fa-envelope fa-fw"></i></a>
 						<h2>Пишите нам</h2>
 						<p>info@monotone.by</p>
-					
-						
-						
+
+
+
 					</div>
-					
+
 				</div>
-				
+
 				<div class="row">
-				
+
 					<!--=== Contact Form ===-->
 
 					<form id="contact-form" class="col-sm-8 col-sm-offset-2" action="contact.php" method="post" novalidate>
-					
+
 					</form><!-- End contact-form -->
-				
+
 				</div>
-				
+
 			</div>
-			
+
 		</section>
 
 		<!-- ==============================================
@@ -729,7 +790,7 @@
 		<section id="clients" class="white-bg">
 				<br><br>	<h1 class="section-title">Нам доверяют</h1>
 			<div class="container"><br><br>
-				
+
 				<div class="row clients">
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
@@ -764,12 +825,12 @@
 				</div>
                 </div>
 
-					
+
 				</div><!-- End row -->
-			
+
 			</div><!-- End container -->
 						<div class="container">
-				
+
 				<div class="row clients">
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
@@ -804,11 +865,11 @@
 				</div>
                 </div>
 
-					
+
 				</div><!-- End row -->
 						</div><!-- End container -->
 						<div class="container">
-				
+
 				<div class="row clients">
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
@@ -843,49 +904,51 @@
 				</div>
                 </div>
 
-					
+
 				</div><!-- End row -->
 			</div><!-- End container -->
 		</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
 		</section>
-		
+
 		<!-- ==============================================
 		FOOTER
-		=============================================== -->	
+		=============================================== -->
 		<footer id="main-footer">
-		
+
 			<div class="container text-center">
-			
-				
-			
+
+
+
 				<ul class="social-links">
 					<li><a href="https://www.instagram.com/monotone_studio"><i class="fa fa-instagram fa-fw"></i></a></li>
 					<li><a href="https://vk.com/monotone_studio"><i class="fa fa-vk fa-fw"></i></a></li>
 					<li><a href="https://www.facebook.com/monotonedesignstudio"><i class="fa fa-facebook fa-fw"></i></a></li>
 					<li><a href="https://www.behance.net/monotone_studio"><i class="fa fa-behance fa-fw"></i></a></li>
-					
-				
+
+
 				</ul>
 				<p>&copy; Создано студией графического дизайна и брендинга "Monotone", 2016 </p>
-				
+
 			</div>
-			
+
 		</footer>
-		
-		
+
+
 		<!-- ==============================================
 		SCRIPTS
-		=============================================== -->	
+		=============================================== -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
-		
+
 		<script src="assets/js/libs/bootstrap.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 		<script src='assets/js/jquery.easing.1.3.min.js'></script>
 		<script src='assets/js/jquery.scrollto.js'></script>
 		<script src='assets/js/jquery.flexslider.min.js'></script>
 		<script src='assets/js/jquery.stellar.js'></script>
-		<script src="assets/js/jquery.masonry.min.js"></script>
+    <script src='assets/js/jquery.validate.min.js'></script>
+    <script src='assets/js/jquery-validate.bootstrap-tooltip.min.js'></script>
+    <script src="assets/js/jquery.masonry.min.js"></script>
 		<script src="assets/js/waypoints.min.js"></script>
 		<script src="assets/js/waypoints-sticky.min.js"></script>
 		<script src="assets/js/jquery.countTo.js"></script>
@@ -899,9 +962,9 @@
 		<script src="assets/js/script.js"></script>
 
 
-		
+
 		<script>
-		
+
 			var mapPoint = {
 					'lat': 53.9025885,
 					'lng': 27.5477133,
@@ -913,10 +976,10 @@
 					'mapAddress':'Belarus, Misnk, Revolyucionnaya 17',
 					'icon': 'assets/images/marker3.png'
 				};
-			
+
 		</script>
-		
-		
+
+
 	</body>
-	
+
 </html>
