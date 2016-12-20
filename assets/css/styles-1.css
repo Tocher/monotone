@@ -3152,3 +3152,74 @@ background-size: cover;
     height: 10px;
     top: 0
 }
+
+.team {
+    background: url(../images/team_fon.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    padding-top: 30px;
+}
+.team_images {
+    padding: 50px 0 0;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .team {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) {
+    .team_img {
+        height: 400px;
+    }
+}
+@media (min-width: 992px) {
+    .team_img {
+        height: 450px;
+    }
+}
+@media (min-width: 1200px) {
+    .team_img {
+        height: 500px;
+    }
+}
+.team_text {
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    padding: 20px;
+    z-index: 50;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+.team1 {
+    z-index: 2;
+}
+.team2 {
+    z-index: 5;
+    margin: 0 -55px;
+}
+.team3 {
+    z-index: 4;
+    margin: 0 -50px;
+}
+.team4 {
+    z-index: 3;
+}
+@media (max-width: 1000px) and (min-width: 760px) {
+    #main-nav .nav a {
+        font-size: 12px;
+        padding: 30px 5px;
+    }
+}
+.social-head {
+    text-align: center;
+}
+.social-head li {
+    display: inline-block;
+}
