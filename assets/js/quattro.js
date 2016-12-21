@@ -343,12 +343,10 @@ $(document).ready(function() {
 			$('#toggle-map').click(function(){
 		  
 				if($('#contact').is('.show-map')){
-
 					$('#contact').css({'height':'auto'});
 					$('#contact .container,#gmap-overlay').fadeIn();
 					
-				}else{
-				
+				} else {
 					$('#contact').height($('#contact').height());
 					$('#contact .container,#gmap-overlay').fadeOut();
 				}
