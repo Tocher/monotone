@@ -12,7 +12,7 @@ $(document).ready(function() {
         submitHandler: function(form) {
           var form = $(form),
               data = {
-          contact: form.find('#contact').val(),
+          contact: form.find('#contact_modal').val(),
           company: form.find('#company').val(),
           phone: form.find('#phone').val(),
           email: form.find('#email').val(),
