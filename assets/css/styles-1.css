@@ -924,11 +924,6 @@ a:focus {
     transition:all .3s ease-out 0s;
 }
 
-.features .media:hover .icon {
-    background:#008ED6;
-    color: #fff;
-}
-
 .features .icon .icon-1 {
     width:80px;
     opacity:1;
