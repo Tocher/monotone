@@ -824,7 +824,7 @@ text-align: center;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #00c1eb;
+  background-color: #008ED6;
   line-height: 80px;
   text-align: center;
   margin: 0 auto;
@@ -1229,7 +1229,7 @@ input{
   transition: all .3s;
 }
 .close-button:hover svg path{
-  fill: #00c1eb;
+  fill: #008ED6;
 }
 
 .promo-close-button{
@@ -1247,7 +1247,7 @@ input{
   transition: all .3s;
 }
 .promo-close-button:hover svg path{
-  fill: #00c1eb;
+  fill: #008ED6;
 }
 
 input::-webkit-outer-spin-button,
@@ -1312,7 +1312,7 @@ input::-webkit-inner-spin-button {
   width: 11px;
   height: 10px;
   border-radius: 1px;
-  background: #00c1eb;
+  background: #008ED6;
   transition: all .2s;
 }
 [type="checkbox"]:not(:checked) + label:after {

@@ -2655,6 +2655,12 @@ height: 450px;
 }
 
 @media (max-width: 767px) {
+    .navbar-brand {
+        height: 50px;
+    }
+    .navbar {
+        height: 62px;
+    }
 
     body,p{
         font-size:16px;
@@ -2714,6 +2720,7 @@ height: 450px;
     }
     #main-nav .navbar-toggle{
         margin-top:14px;
+        margin-right: 40px;
     }
     #main-nav .nav a {
         line-height:42px !important;
@@ -3438,7 +3445,7 @@ input{
   transition: all .3s;
 }
 .close-button:hover svg path{
-  fill: #00c1eb;
+  fill: #008ED6;
 }
 
 input::-webkit-outer-spin-button,
@@ -3504,7 +3511,7 @@ input::-webkit-inner-spin-button {
   width: 11px;
   height: 10px;
   border-radius: 1px;
-  background: #00c1eb;
+  background: #008ED6;
   transition: all .2s;
 }
 [type="checkbox"]:not(:checked) + label:after {
