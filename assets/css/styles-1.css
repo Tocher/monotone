@@ -3067,6 +3067,9 @@ right: 15px;
   opacity: 0.8;
 }
 
+.team {
+    background: #fff;
+}
 .team__crew {
     margin-top: 20px;
     position: relative
@@ -3098,7 +3101,7 @@ right: 15px;
     height: 10px;
     top: 0
 }
-.team {
+.team_bg {
     background: url(../images/team_fon.jpg) no-repeat center top;
     background-size: cover;
     position: relative;
