@@ -106,9 +106,13 @@ a:focus {
 }
 
 
+#news {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 
 .padding-top {
-    padding:100px 0 0;
+    padding:50px 0 0;
 }
 
 .margin-bottom{
@@ -130,11 +134,7 @@ a:focus {
     font-weight:100;
     letter-spacing:0;
     text-align:center;
-
-
 }
-
-
 
 .section-title3{
     position:relative;
@@ -145,10 +145,7 @@ a:focus {
     font-weight:100;
     letter-spacing:0;
     text-align:center;
-
-
 }
-
 
 .section-new{
     position:relative;
@@ -1570,15 +1567,7 @@ a:focus {
 }
 
 .client img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all .3s ease-out;
-    transition: all .3s ease-out;
-}
-
-.client img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: translateZ(0);
 }
 
 .pasha_icons {
@@ -3122,6 +3111,9 @@ right: 15px;
     width: 100%;
 }
 @media (max-width: 767px) {
+    .team {
+        display: none !important;
+    }
     .team_img {
         height: 150px;
     }

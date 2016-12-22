@@ -1,17 +1,5 @@
 $(document).ready(function() {
 
- $('.navbar-nav a[href^="#"]').on('click',function (e) {
-    e.preventDefault();
-
-    var target = this.hash;
-    var $target = $(target);
-
-    $('html, body').stop().animate({
-        'scrollTop': $target.offset().top - 150
-    }, 900, 'swing');
-});
-
-
 var jssor_1_SlideoTransitions = [
   [{b:5500,d:3000,o:-1,r:240,e:{r:2}}],
   [{b:-1,d:1,o:-1,r:-150},{b:7500,d:1600,o:1,r:150,e:{r:3}}],
