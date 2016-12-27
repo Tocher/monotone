@@ -69,16 +69,6 @@ $(document).ready(function() {
         } else {
             $(header).removeClass('mini');
         }
-        if (window.pageYOffset > 1980) {
-            zakazatBtn.css("opacity", 1);
-            zakazatBtn.css("margin-right", 0);
-            zakazatBtn.css("visibility", "visible");
-        }
-        else {
-            zakazatBtn.css("opacity", 0);
-            zakazatBtn.css("margin-right", "-110px");
-            zakazatBtn.css("visibility", "hidden");
-        }
 
         if (window.pageYOffset > 3500) {
             $(".info1").css("opacity", 1);
