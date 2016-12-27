@@ -12,7 +12,25 @@
         </div>
 
         <div id="site-nav" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left">
+            <ul class="nav navbar-nav navbar-right social-head">
+                <li>
+                    <a href="https://www.instagram.com/monotone_studio">
+                        <i class="fa fa-instagram fa-fw"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vk.com/monotone_studio">
+                        <i class="fa fa-vk fa-fw"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/monotonedesignstudio">
+                        <i class="fa fa-facebook fa-fw"></i>
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
                 <li class="sr-only">
                     <a href="/" class="scrollto">Главная</a>
                 </li>
@@ -33,24 +51,6 @@
                 </li>
                 <li>
                     <a class="text-item head__zakaz zakazat-btn">Заказать</a>
-                </li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right social-head">
-                <li>
-                    <a href="https://www.instagram.com/monotone_studio">
-                        <i class="fa fa-instagram fa-fw"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://vk.com/monotone_studio">
-                        <i class="fa fa-vk fa-fw"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/monotonedesignstudio">
-                        <i class="fa fa-facebook fa-fw"></i>
-                    </a>
                 </li>
             </ul>
         </div><!--End navbar-collapse -->
