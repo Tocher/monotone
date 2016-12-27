@@ -1,21 +1,9 @@
-@font-face
-{
-    font-family: Lato-Regular;
-    src: url(Lato-Regular.ttf);
-}
-@font-face
-{
-    font-family: Lato-Light;
-    src: url(Lato-Light.ttf);
-}
-
 body
 {
     padding: 0;
     margin: 0;
     width: 100%;
     overflow-x: hidden;
-    font-family: Lato-Regular;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -195,7 +183,6 @@ a{
 
 .head__menu a
 {
-    font-family: Lato-Regular;
     text-transform: uppercase;
     text-decoration: none;
     vertical-align: top;
@@ -284,14 +271,12 @@ a{
 .types__title
 {
     text-align: center;
-    font-family: Lato-Light;
     font-size: 37px;
     line-height: 39px;
 }
 .portfolio__desc
 {
     text-align: center;
-    font-family: Lato-Light;
     font-size: 20px;
     line-height: 25px;
 }
@@ -299,12 +284,10 @@ a{
 {
     margin-top: 70px;
     text-align: center;
-    font-family: Lato-Regular;
     text-transform: uppercase;
 }
 .portfolio__items
 {
-    font-family: Lato-Regular;
     text-transform: uppercase;
     text-align: center;
 }
@@ -314,7 +297,6 @@ a{
     font-size: 14px;
     border: 1px solid #ccc;
     padding: 5px 10px;
-    font-family: Lato-Light;
     transition: all .5s;
 }
 .portfolio__item:hover
@@ -563,7 +545,6 @@ a{
 }
 .types__name
 {
-    font-family: Lato-Light;
     font-size: 25px;
     margin-top: 10px;
 }
@@ -574,7 +555,6 @@ a{
 .types__more
 {
   transition: border .5s;
-  font-family: Lato-Regular;
   font-size: 12px;
   /*border: 1px solid #333;*/
   width: 43%;
@@ -594,7 +574,6 @@ a{
 .types__description
 {
     margin: 25px 0 25px 0;
-    font-family: Lato-Light;
     font-size: 14px;
 }
 
@@ -603,7 +582,6 @@ a{
     background: #000;
     text-align: center;
     color: #ccc;
-    font-family: Lato-Light;
     font-size: 14px;
     padding: 20px 0 40px;
 }
@@ -743,7 +721,6 @@ height: 100%;
 .min-slider__title
 {
 text-align: center;
-    font-family: Lato-Light;
     font-size: 37px;
     line-height: 39px;
     text-transform: capitalaz
@@ -752,7 +729,6 @@ text-align: center;
 {
 
   text-align: center;
-    font-family: Lato-Light;
     font-size: 22px;
     line-height: 25px;
     margin-top: 40px;
@@ -800,7 +776,6 @@ text-align: center;
 .top-slider__title
 {
   text-align: center;
-  font-family: Lato-Light;
   font-size: 37px;
   line-height: 39px;
 }
@@ -808,7 +783,6 @@ text-align: center;
 {
 
   text-align: center;
-    font-family: Lato-Light;
     font-size: 22px;
     line-height: 25px;
     margin-top: 40px;
@@ -1777,7 +1751,6 @@ opacity: 0;
 .onslide-textarea__subtitle {
   font-size: 32px;
   letter-spacing: 2.5px;
-  font-family: Lato-Light;
   font-weight: 600;
   margin-bottom: 5%;
   opacity: 0.9;
