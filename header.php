@@ -7,18 +7,15 @@
                 <div id="slider1_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1920px; height: 1080px;">
                     <!-- Slides Container -->
                     <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1920px;  height: 1080px; overflow: hidden;">
+ <div>
+                            <img u="image" src="./assets/images/mono-zastavka.jpg" border="0" style="top: 0px; left: 0px; width: 100%; height: 100%; position: absolute;">
+                       <div class="onslide-textarea">
+               <div class="onslide-textarea__subtitle"></div>
+ </div>
+ </div>
+                      
 
-                        <div>
-                            <img u="image" src="./assets/images/monotone_zastavka4.jpg" border="0" style="top: 0px; left: 0px; width: 100%; height: 100%; position: absolute;">
-                        </div>
 
-                        <div>
-                            <img u=image src="./assets/images/startup_slide.jpg"/>
-                            <div class="onslide-textarea">
-                                <div class="onslide-textarea__subtitle">Мы рады помочь активнм, молодым и талантливым</div>
-                                <div class="onslide-textarea__title">ЛОГОТИП СТАРТАПУ <br>БЕСПЛАТНО!</div>
-                                <p class="text-center"><a class="btn btn-quattro" href="news_post.php" target="_blank">ПОДРОБНЕЕ</a></p>
-                            </div>
 
                         </div>
                     </div>
@@ -49,6 +46,6 @@
 
     </div>
 
-    <a class="scroll-button scrollto" href="#"><i class="fa fa-angle-down"></i></a>
+    <a class="scroll-button scrollto" href="#about"><i class="fa fa-angle-down"></i></a>
 
 </header><!--End header -->

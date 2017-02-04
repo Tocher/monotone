@@ -10,14 +10,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- for Google -->
-    <meta name="description" content="Студия графического дизайна и брендинга Monotone" />
-    <meta name="keywords" content="дизайн студия монотон monotone сайт создание сайта визитки" />
+    <meta name="description" content="Студия графического дизайна и брендинга Monotone. Мы создадим для вас логотип или фирменный стиль в соответствии с вашими запросами в кратчайшие сроки. город Минск" />
+    <meta name="keywords" content="разработать фирменный стиль, фирменный стиль,  логотип, разработать логотип, создать логотип, логотип, качественный фирменный стиль." />
 
     <meta name="author" content="Monotone.by" />
     <meta name="copyright" content="&copy; 2016 - 2017" />
 
     <!-- for Facebook -->
-    <meta property="og:title" content="Monotone -  дизайн студия" />
+    <meta property="og:title" content="Студия графического дизайна и брендинга Monotone. 
+Мы создадим для вас логотип или фирменный стиль в соответствии с вашими запросами в кратчайшие сроки." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://monotone.by/assets/images/small_picture.jpg" />
     <meta property="og:url" content="http://monotone.by" />

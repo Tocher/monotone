@@ -29,7 +29,7 @@
 						
 							<header class="post-header">
                                    <br><br><h3 class="text-center">Логотип и визитная карточка для кавер бэнда "Robin Good"
-<br><br><p>Задача: разработать логотип, который будет отображать стилистиску кавер бэнда</p>
+<br><br><p>Задача: разработать логотип, который будет отображать стилистику кавер бэнда</p>
 
 								<ul class="post-meta small"></ul>
 								<footer class="post-footer"></footer>

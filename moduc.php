@@ -1,11 +1,10 @@
 <?php include('head.php'); ?>
 <?php include('menu.php'); ?>
 
-
 		<!-- ==============================================
 		PPHTO SLICDE
 		=============================================== -->			
-		<section class="parallax-bg light-typo padding-top-bottom3" data-parallax-background="assets/images/gudvin0.jpg" data-stellar-background-ratio=".5">
+<section class="parallax-bg light-typo padding-top-bottom3" data-parallax-background="assets/images/moduc_4.jpg" data-stellar-background-ratio=".5">
 		
 			<div class="container">
 			
@@ -13,9 +12,7 @@
 				</div><!--End container -->
         </section>
 
-	<!-- ==============================================
-		SINGLE POST
-		=============================================== -->			
+
 		<section class="white-bg">
 		
 			<div class="container">
@@ -27,27 +24,27 @@
 						<article class="post-entry">
 						
 							<header class="post-header">
-                                   <br><br><h3 class="text-center">Ребрендинг логотипа и элементы фирменного стиля <br>для ресторан-бара "Гудвин"
-<br><br><p>Задача: после обновления интерьера понадобилось усовершенствовать логотип, который будет отражать новый образ бара</p>
+                                   <br><br><h3 class="text-center">Логотип и элементы фирменного стиля для парикмахерской "Модис"
 
-					
-								
+
 								<ul class="post-meta small"></ul>
 								<footer class="post-footer"></footer>
-								<br><img class="img-responsive" src="assets/images/gudvin.jpg" alt="" />
-								<br><img class="img-responsive" src="assets/images/gudvin2.jpg" alt="" />
-										
-							</header>
+								<img class="img-responsive" src="assets/images/moduc_1.jpg" alt="" />
+							
+								<br><img class="img-responsive" src="assets/images/moduc3.jpg" alt="" />
+							
+						</header>
 							<footer class="post-footer"></footer>
 							</article>
 						</div>
         </section>
+	
 
 		<!-- ==============================================
 		PARALAX
 		=============================================== -->
 		 
-		<header id="home" class="parallax-bg" data-parallax-background="assets/images/gudbin_logo.jpg" data-stellar-background-ratio=".3">
+		<header id="home" class="parallax-bg" data-parallax-background="assets/images/moduc_2.jpg" data-stellar-background-ratio=".3">
 		
 			<div class="header-content">
 			</div><!--End home-slider -->
@@ -110,27 +107,26 @@
 			
 		</section>
 	
-<!-- ==============================================
-		FOOTER
-		=============================================== -->	
-		<footer id="main-footer">
-  <div class="container text-center">
-<ul class="social-links">
-					<li><a href="https://www.instagram.com/monotone_studio"><i class="fa fa-instagram fa-fw"></i></a></li>
-					<li><a href="https://vk.com/monotone_studio"><i class="fa fa-vk fa-fw"></i></a></li>
-					<li><a href="https://www.facebook.com/monotonedesignstudio"><i class="fa fa-facebook fa-fw"></i></a></li>
-					<li><a href="https://www.behance.net/monotone_studio"><i class="fa fa-behance fa-fw"></i></a></li>
+		<!-- ==============================================
+				FOOTER
+				=============================================== -->	
+				<footer id="main-footer">
+		  <div class="container text-center">
+		<ul class="social-links">
+							<li><a href="https://www.instagram.com/monotone_studio"><i class="fa fa-instagram fa-fw"></i></a></li>
+							<li><a href="https://vk.com/monotone_studio"><i class="fa fa-vk fa-fw"></i></a></li>
+							<li><a href="https://www.facebook.com/monotonedesignstudio"><i class="fa fa-facebook fa-fw"></i></a></li>
+							<li><a href="https://www.behance.net/monotone_studio"><i class="fa fa-behance fa-fw"></i></a></li>
+							
+						
+						</ul>
+						<p>&copy; Создано студией графического дизайна и брендинга "Monotone", 2016 </p>
+						
+					</div>
 					
+				</footer>
 				
-				</ul>
-				<p>&copy; Создано студией графического дизайна и брендинга "Monotone", 2016 </p>
-				
-			</div>
-			
-		</footer>
 		
-		
-
 				<!-- ==============================================
 				SCRIPTS
 				=============================================== -->
@@ -161,7 +157,7 @@
 				<script src="assets/js/script.js"></script>
 
 
-	<?php include('popup.php'); ?>
-	</body>
 
-</html>
+			</body>
+			
+		</html>

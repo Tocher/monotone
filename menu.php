@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/monotonedesignstudio">
+                    <a href="https://facebook.com/studiomonotone">
                         <i class="fa fa-facebook fa-fw"></i>
                     </a>
                 </li>
@@ -41,7 +41,7 @@
                     <a href="/#services" class="scrollto">Услуги</a>
                 </li>
                 <li>
-                    <a href="/#portfolio" class="scrollto">Портфолио</a>
+                    <a href="bigportfolio.php">Портфолио</a>
                 </li>
                 <li>
                     <a href="/#news" class="scrollto"> Новости</a>

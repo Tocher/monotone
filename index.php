@@ -62,7 +62,7 @@
 
                     <div class="media-body text-right">
                         <h4>С нами комфортно</h4>
-                        <p>У нас понятные схемы работы. Мы своевременно инфорируем о процессе на каждом этапе. соответствуют ожиданиям наших клиентов.</p>
+                        <p>У нас понятные схемы работы. Мы своевременно инфорируем о процессе на каждом этапе.</p>
                     </div>
                 </div>
             </div>
@@ -112,27 +112,20 @@
 
 
 <section class="team">
-    <div class="container">
+   <div class="container">
         <div class="row">
             <h1 class="section-title">Команда</h1>
+ 
         </div>
     </div>
 
-    <div class="team_bg">
-        <div class="container">
-            <h1 class="section-new light-typo">
-                Мы – команда профессиональных дизайнеров, которые знают и любят своё дело.<br>
+      
+    <div class="container">
+  <h1 class="section-new">Мы – команда профессиональных дизайнеров, которые знают и любят своё дело.<br>
                 Дизайн для нас - не просто работа. Это образ мышления и стиль жизни.
             </h1>
-            <br><br>
-            <div class="row">
-                <div class="team_images">
-                    <img class="team_img team1 img-responsive" src="assets/images/team1.png">
-                    <img class="team_img team2 img-responsive" src="assets/images/team2.png">
-                    <img class="team_img team3 img-responsive" src="assets/images/team3.png">
-                    <img class="team_img team4 img-responsive" src="assets/images/team4.png">
-                </div>
-            </div>
+<img src="assets/images/team-fon.jpg"
+  
         </div>
     </div>
 </section>
@@ -155,7 +148,7 @@
 						<div class="icon">          <div class="types__icon">
             <div style="width:120px; height:120px; margin:0 auto" id="outdoor-svg"></div>
           </div></div>
-		<h3><a href="logotype.html">Логотип</a></h3>
+		<h3>Логотип</h3>
 
 
 						<p>Логотип. Создаем оригинальный, современный логотип. Доработка до 100% согласования с клиентом.</p>
@@ -232,34 +225,8 @@
 
 			<div class="container">
 
-				<h1 class="section-title">Портфолио</h1>
-
-				<!--==== Portfolio Filters ====-->
-				<div id="filter-works">
-					<ul>
-						<li class="active scrollimation fade-right d1">
-							<a href="#" data-filter="*">Все</a>
-						</li>
-						<li class="scrollimation fade-right">
-							<a href="#" data-filter=".saite">Создание сайтов</a>
-						</li>
-						<li class="scrollimation fade-left">
-							<a href="#" data-filter=".logo">Логотип</a>
-						</li>
-						<li class="scrollimation fade-left d1">
-							<a href="#" data-filter=".style">Фирменный стиль</a>
-						</li>
-                            <li class="scrollimation fade-left d2">
-							<a href="#" data-filter=".outdoor">Наружная реклама</a>
-						</li>
-							</li>
-                            <li class="scrollimation fade-left d3">
-							<a href="#" data-filter=".poligraf">Полиграфия</a>
-						</li>
-					</ul>
-				</div><!--End portfolio filters -->
-
-			</div>
+				<h1 class="section-title">Новые работы</h1>
+	</div>
 
 			<div class="masonry-wrapper">
 
@@ -269,10 +236,10 @@
 					SINGLE PROJECT ITEM
 					=============================================== -->
 					<article class="project-item poligraf">
-						<img class="img-responsive project-image" src="assets/images/glavnaya16.jpg"><!--Project thumb -->
-						<a href="task.php" class="hover-mask">
-							<h2 class="project-title" href="task.html">Календарт для страховой <br>компании "Таск"
-							<p>Полиграфия</p></h2></a><!--Project Title --><!--Project Subtitle -->
+						<img class="img-responsive project-image" src="assets/images/glavnaya33.jpg"><!--Project thumb -->
+						<a href="moduc.php" class="hover-mask">
+							<h2 class="project-title" href="moduc.html">Логотип и элементы <br>фирменного стиля для<br> парикмахерской "Модис"
+							<p>Логотип</p></h2></a><!--Project Title --><!--Project Subtitle -->
 						</a>
 						<div class="container__hidden-item container__hidden-item_type1 container__item_half-size">
 							<div class="portfolio__text">
@@ -285,7 +252,7 @@
 					<img class="img-responsive project-image" src="assets/images/glavnaya13.jpg" alt=""><!--Project thumb -->
 						<a href="blackhouse.php" class="hover-mask">
 						<h2 class="project-title">Логотип и элементы <br>фирменного стиля для<br>"Black House club"</h2><!--Project Title -->
-						<p>Логотип / Фиремнный стиль</p></a><!--Project Subtitle -->
+						<p>Логотип / Фирменный стиль</p></a><!--Project Subtitle -->
 						</a>
 					</article><!--End Project Item -->
 
@@ -300,28 +267,28 @@
 
 
 					<article class="project-item logo ">
-					<img class="img-responsive project-image" src="assets/images/kuliss_logo8.jpg" alt=""><!--Project thumb -->
-						<a href="ljakylis.php" class="hover-mask">
-							<h2 class="project-title">Логотип для студии красоты <br>"ЛяКулисс"</h2><!--Project Title -->
-							<p>Логотип</p></a><!--Project Subtitle -->
+					<img class="img-responsive project-image" src="assets/images/glavnaya32.jpg" alt=""><!--Project thumb -->
+						<a href="catalog.php" class="hover-mask">
+							<h2 class="project-title">Каталон дизайнерских фотообоев<br>для "City Decor"</h2><!--Project Title -->
+							<p>Полиграфия</p></a><!--Project Subtitle -->
 						
 					</article><!--End Project Item -->
 
 					<article class="project-item logo">
-						<img class="img-responsive project-image" src="assets/images/glavnaya11.jpg" alt=""><!--Project thumb -->
+						<img class="img-responsive project-image" src="assets/images/glavnaya0.jpg" alt=""><!--Project thumb -->
 						  <a href="shisha.php" class="hover-mask">
 						<h2 class="project-title">Логотип для <br>"Shisha lounge bar"</h2><!--Project Title -->
 						<p>Логотип</p></a><!--Project Subtitle -->
 					
 					</article><!--End Project Item -->
 
-					<article class="project-item poligraf">
-						<img class="img-responsive project-image" src="assets/images/glavnaya10.jpg" alt=""><!--Project thumb -->
-						<a href="ssg.php" class="hover-mask">
-						<h2 class="project-title"><br>Имиджевая продукция <br>для "Show shot group"</h2><!--Project Title -->
-						<p>Полиграфия</p></a><!--Project Subtitle -->
-						
-					</article><!--End Project Item -->
+					<article class="project-item illustration style">
+					<img class="img-responsive project-image" src="assets/images/glavnaya8.jpg" alt=""><!--Project thumb -->
+					<a href="echomedia.php" class="hover-mask">
+					<h2 class="project-title">Ребрендинг логотипа для компании <br>"Эхо медиа"</h2><!--Project Title -->
+					<p>Фирменный стиль</p></a><!--Project Subtitle -->
+					
+					</article><!--End Project Item --><!--End Project Item -->
 
 					<article class="project-item identity saite">
  					<img class="img-responsive project-image" src="assets/images/glavnaya15.jpg" alt=""><!--Project thumb -->
@@ -332,83 +299,10 @@
 					</article><!--End Project Item -->
 
 
-
-					<!-- ==============================================
-					SINGLE PROJECT ITEM
-					=============================================== -->
-					<div class="projects-more">
-                    <article class="project-item poligraf">
-					<img class="img-responsive project-image" src="assets/images/calendar_prewie2.jpg" alt=""><!--Project thumb -->
-					<a href="asb.php" class="hover-mask">
-					<h2 class="project-title">Дизайн-макет календаря <br>для "АСБ Лизинг"</h2><!--Project Title -->
-					<p>Полиграфия</p></a><!--Project Subtitle -->
-						
-						</article>
-						<!--End Project Item -->
-
-					<article class="project-item identity logo">
-					<img class="img-responsive project-image" src="assets/images/glavnaya2.jpg" alt=""><!--Project thumb -->
-			<a href="gudvin.php" class="hover-mask">
-					<h2 class="project-title">Ребрендинг логотипа и элементы фирменного стиля <br> для ресторан-бара "Гудвин"</h2><!--Project Title -->
-					<p>Логотип</p></a><!--Project Subtitle -->
-					
-					</article><!--End Project Item -->
-
-					<article class="project-item poligraf">
-						<img class="img-responsive project-image" src="assets/images/glavnaya3.jpg" alt=""><!--Project thumb -->
-						<a href="argyment.php" class="hover-mask">
-							<h2 class="project-title">Рекламный буклет <br> для фитнес-центра "АрGУМент"</h2><!--Project Title -->
-							<p>Полиграфия</p></a><!--Project Subtitle -->
-					
-					</article><!--End Project Item -->
-
-
-
-					<article class="project-item poligraf">
-					<img class="img-responsive project-image" src="assets/images/glavnaya4.jpg" alt=""><!--Project thumb -->
-				<a href="robingood.php" class="hover-mask">
-							<h2 class="project-title">Логотип и визитная карточка<br>для кавер бэнда "Robin Good"</h2><!--Project Title -->
-							<p>Логотип / Полиграфия</p></a><!--Project Subtitle -->
-						
-					</article><!--End Project Item -->
-
-					<article class="project-item logo">
-					<img class="img-responsive project-image" src="assets/images/glavnaya5.jpg" alt=""><!--Project thumb -->
-					<a href="timrom.php" class="hover-mask">
-					<h2 class="project-title">Логотип для компании <br>SMM продвижения "Timrom"</h2><!--Project Title -->
-					<p>Логотип</p></a><!--Project Subtitle -->
-					
-
-
-
-					</article><!--End Project Item -->
-					<article class="project-item poligraf">
-					<img class="img-responsive project-image" src="assets/images/glavnaya6.jpg" alt=""><!--Project thumb -->
-					<a href="murat.php" class="hover-mask">
-					<h2 class="project-title">Имиджевый буклет <br>для продюсерской компании <br>Мурата Абдульманова</h2><!--Project Title -->
-					<p>Полиграфия</p></a><!--Project Subtitle -->
-										</article><!--End Project Item -->
-
-					<article class="project-item identity logo">
- 					<img class="img-responsive project-image" src="assets/images/glavnaya7.jpg" alt=""><!--Project thumb -->
-					<a href="vizalux.php" class="hover-mask">
-					<h2 class="project-title">Логотип для визового агенства "VizaLux</h2><!--Project Title -->
-					<p>Логотип</p></a><!--Project Subtitle -->
-					
-					</article><!--End Project Item -->
-
-					<article class="project-item illustration style">
-					<img class="img-responsive project-image" src="assets/images/glavnaya8.jpg" alt=""><!--Project thumb -->
-					<a href="echomedia.php" class="hover-mask">
-					<h2 class="project-title">Ребрендинг логотипа для компании <br>"Эхо медиа"</h2><!--Project Title -->
-					<p>Фирменный стиль</p></a><!--Project Subtitle -->
-					
-					</article><!--End Project Item -->
 </div>
+						
 
-				</div>
-
-					<be><p class="text-center"><a class="btn btn-quattro2 btn-more" href="---" target="_blank">ПОСМОТРЕТЬ БОЛЬШЕ РАБОТ</a>
+					<br><br><be><p class="text-center"><a class="btn btn-quattro2 " href="bigportfolio.php" target="_blank">СМОТРЕТЬ ВСЕ РАБОТЫ</a>
 					</article><!--End Project Item -->
 
 
@@ -442,16 +336,17 @@
 								<img class="img-responsive" src="assets/images/zastavka.jpg"/>
 							</a>
 
-							<h2 class="post-title"><a href="news_post.php" title="Read post: Post with single featured image">Конкурс: логотип стартапу бесплатно!</a></h2>
+							<h2 class="post-title"><a href="news_post.php" title="Read post: Post with single featured image">Конкурс розыгрыша дизайна логотипа завершился!</a></h2>
 
 							<ul class="post-meta small">
-								<li><i class="fa fa-calendar"></i><a href="news_post.php">4 Ноября 2016</a></li>
+								<li><i class="fa fa-calendar"></i><a href="news_post.php">28 Декабря 2016</a></li>
 
 
 							</ul>
 						</header>
 
-						<p>Мы рады помочь активным, молодым и талантливым. <br>Наша студия разработает логотип одному проекту бесплатно. <br>Который будет выбран 30 декабря</p>
+						<p>Историй было много и мы выбрали. 
+История нашего победители <br>была одновременно лаконично и оригинальна</p>
 
 						<a class="post-link" href="news_post.php" title="Read post: Post with single featured image">Подробнее</a>
 
@@ -557,7 +452,7 @@
 				<div class="row clients">
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
-				<a href="#link"><img class="img-responsive img-center" src="assets/images/newart.png" alt=""></a>
+				<a href="#link"><img class="img-responsive img-center" src="assets/images/goldies.png" alt=""></a>
 				</div>
                 </div>
 
@@ -608,7 +503,7 @@
                 </div>
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
-				<a href="#link"><img class="img-responsive img-center" src="assets/images/sdj.png" alt=""></a>
+				<a href="#link"><img class="img-responsive img-center" src="assets/images/up!.jpg" alt=""></a>
 				</div>
                 </div>
                 <div class="col-sm-6 col-md-2 col-xs-4">
@@ -624,7 +519,7 @@
                 </div>
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
-				<a href="#link"><img class="img-responsive img-center" src="assets/images/panters.png" alt=""></a>
+				<a href="#link"><img class="img-responsive img-center" src="assets/images/planx.png" alt=""></a>
 				</div>
                 </div>
 
@@ -642,7 +537,7 @@
 
                 <div class="col-sm-6 col-md-2 col-xs-4">
                 <div class="client">
-				<a href="#link"><img class="img-responsive img-center" src="assets/images/goldies.png" alt=""></a>
+				<a href="#link"><img class="img-responsive img-center" src="assets/images/mebeli.png" alt=""></a>
 				</div>
                 </div>
                 <div class="col-sm-6 col-md-2 col-xs-4">
@@ -685,7 +580,7 @@
 				<ul class="social-links">
 					<li><a href="https://www.instagram.com/monotone_studio"><i class="fa fa-instagram fa-fw"></i></a></li>
 					<li><a href="https://vk.com/monotone_studio"><i class="fa fa-vk fa-fw"></i></a></li>
-					<li><a href="https://www.facebook.com/monotonedesignstudio"><i class="fa fa-facebook fa-fw"></i></a></li>
+					<li><a href="https://facebook.com/studiomonotone"><i class="fa fa-facebook fa-fw"></i></a></li>
 					<li><a href="https://www.behance.net/monotone_studio"><i class="fa fa-behance fa-fw"></i></a></li>
 
 

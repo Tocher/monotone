@@ -1,10 +1,11 @@
 <?php include('head.php'); ?>
 <?php include('menu.php'); ?>
 
+
 		<!-- ==============================================
 		PPHTO SLICDE
 		=============================================== -->			
-		<section class="parallax-bg light-typo padding-top-bottom3" data-parallax-background="assets/images/timrom_logo1.jpg" data-stellar-background-ratio=".5">
+		<section class="parallax-bg light-typo padding-top-bottom3" data-parallax-background="assets/images/catalog_prewie5.jpg" data-stellar-background-ratio=".5">
 		
 			<div class="container">
 			
@@ -26,16 +27,14 @@
 						<article class="post-entry">
 						
 							<header class="post-header">
-                                   <br><br><h3 class="text-center">Логотип для компании SMM продвижения "Timrom"
-<br><br><p>Задача: разработать логотип, узнаваемый в данном сегменте рынка.
-<br>Логотип представляет собой единую композицию из графической эмблемы и шрифтовой части. Эмблема вписана в круг. <br>Для шрифтовой части разработан шрифт заглавными буквами, которые символизируют основательность компании</p>
+                                   <br><br><h3 class="text-center">Каталон дизайнерских фотообоев для "City Decor"
+<br><br><p>Задача: разработать логотип, который будет отображать стилистиску кавер бэнда</p>
 
 								<ul class="post-meta small"></ul>
 								<footer class="post-footer"></footer>
-								<img class="img-responsive" src="assets/images/timrom_logo_3.jpg" alt="" />
-							
-								<br><img class="img-responsive" src="assets/images/timrom_logo.jpg" alt="" />
-							
+								<img class="img-responsive" src="assets/images/сatalog_prewie1.jpg" alt="" />
+							<br><img class="img-responsive" src="assets/images/сatalog_prewie2.jpg" alt="" />
+							<br><img class="img-responsive" src="assets/images/catalog_prewie4.jpg" alt="" />
 						</header>
 							<footer class="post-footer"></footer>
 							</article>
@@ -46,7 +45,7 @@
 		PARALAX
 		=============================================== -->
 		 
-		<header id="home" class="parallax-bg" data-parallax-background="assets/images/timrom_logo2.jpg" data-stellar-background-ratio=".3">
+		<header id="home" class="parallax-bg" data-parallax-background="assets/images/catalog_prewie!.jpg" data-stellar-background-ratio=".3">
 		
 			<div class="header-content">
 			</div><!--End home-slider -->
@@ -66,7 +65,7 @@
 				<div class="row margin-bottom">
 				
 					<div class="col-sm-3 col-sm-offset-1 text-center contact-item scrollimation fade-up">
-									
+					
 						<div class="icon"><i class="fa fa-phone fa-fw"></i></div>
 						<h2>Звоните нам</h2>
 						<p>+375(29) 355-33-63</p>
@@ -130,7 +129,6 @@
 		
 		
 		
-		
 		<!-- ==============================================
 		SCRIPTS
 		=============================================== -->
@@ -161,7 +159,7 @@
 		<script src="assets/js/script.js"></script>
 
 
-	<?php include('popup.php'); ?>
+
 	</body>
 	
 </html>

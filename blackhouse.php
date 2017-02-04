@@ -57,7 +57,7 @@
 		<footer class="post-footer"></footer>
 		<img class="img-responsive" src="assets/images/blackhouse5.jpg" alt=""/>
 		<h3 class="text-center">
-<br><br><p>Разработка барного и меню хухни</p>
+<br><br><p>Разработка барного и меню кухни</p>
 		<footer class="post-footer"></footer>
 		<img class="img-responsive" src="assets/images/menu_blackhouse.jpg" alt=""/>
 		</div>

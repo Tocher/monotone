@@ -130,47 +130,40 @@
 						<article class="post-entry">
 						
 							<header class="post-header">
-								<br><br><h2 class="post-title">Конкурс: Выйграй логотип бесплатно</h2>
+								<br><br><h2 class="post-title">Конкурс розыгрыша дизайна логотипа завершился!</h2>
 								
 								<ul class="post-meta small">
-									<li><i class="fa fa-calendar"></i><a href="#">4 ноября 2016</a></li>
-									<li><i class="fa fa-comments-o"></i><a href="#">0 Комментариев</a></li>
+									<li><i class="fa fa-calendar"></i><a href="#">28 декабря 2016</a></li>
+									
 									
 								</ul>
 								
 								<img class="img-responsive" src="assets/images/start-up_post.jpg" alt="" />
 							</header>
-							
-							
-							
 							<br/>
-							<h3>Мы рады помочь активным, молодым и талантливым</h3>
-							
-							<p>Правила для участие в конкурсе просты:
-							<br> - Подписаться на наши социальные сети 
-							<br> - Заполнить бриф
-							<br> - Отправить завявку</p>
-							
-							<blockquote>
-								<p>30 декабря мы обьвим проект, для которого будем создавать  логотип бесплатно!</p>
+					<h3>Привет друзья! 4 ноября стартовал конкурс по созданию логотипа абсолютно бесплатно!</h3>
+							<br><p>В поддержку всех предпринимателей, суть конкурса заключалась в том, что вы рассказываете о своем Start-Up, 
+							<br>а мы создаём для Вас уникальный логотип. Правила были просты, нужно было подписаться на наши социальные сети  
+							<br>и отправить заявку с рассказом о сваоем Start-Up. Историй было много и мы выбрали. 
+							<br>История нашего победители была одновременно лаконично и оригинальна 
+							</p>
+<blockquote>
+								<p><a href="https://www.instagram.com/bestlookstudio/">@bestlookstudio</a> наша студия решила, что этот Новый Год ты обязана встретить с обновлениями. 
+								<br>Мы желаем тебе успехов и надеемся, что это лого станет узнаваемым и ты создашь свою франшизу. </p>
 							</blockquote>
 							
-							<p>vk.com <a href="monotone_studio">vk.com/monotone_studio</a>
-							<br>instagram.com <a href="monotone_studio">instagram.com/monotone_studio</a></p>
-							
-							<footer class="post-footer">
-							
-								<div class="tags-container text-left">
-								    <i class="fa fa-tags"></i>
-								    <a class="tag" href="#tag">logotype</a>
-									<a class="tag" href="#tag">logodesign</a>
-									<a class="tag" href="#tag">starup</a>
-									<a class="tag" href="#tag">monotonestudio</a>
-									<a class="tag" href="#tag">design</a>
-									<a class="tag" href="#tag">minsk</a>
+							<p><a href="https://vk.com/monotone_studio">vk - @monotone_studio</a>
+							<br><a href="https://instagram.com/monotone_studio">instagram - @monotone_studio</a></p>
 
-						 	</div>
+						<footer class="post-footer">
+							
+
 							</footer>
+
+	<img class="img-responsive" src="assets/images/best_final.jpg">
+	
+		
+
 							</article>
 						</div>
 
@@ -179,18 +172,12 @@
 
 
 <!-- ==============================================
-		CALL TO ACTION
+		PPHTO SLICDE
 		=============================================== -->			
-		<section class="parallax-bg light-typo padding-top-bottom" data-parallax-background="assets/images/zastavka_banner.jpg" data-stellar-background-ratio=".5">
-		
-			<div class="container">
-			
-				<h2 class="text-center">Отправить заявку для участие в конкурсе!</h2>
-				<p class="text-center"><a class="btn btn-quattro" href="---" target="_blank"></i>ОТПРАВИТЬ ЗАЯВКУ</a></p>
-				
-			</div><!--End container -->
-			
-		</section><!--End Call to Action -->
+		<header id="home" class="parallax-bg" data-parallax-background="assets/images/bestlook_prewie3.jpg" data-stellar-background-ratio=".3">
+		<div class="header-content">
+			</div></header><!--End container -->
+     
 						
 <!-- ==============================================
 		FOOTER
@@ -200,7 +187,7 @@
 <ul class="social-links">
 					<li><a href="https://www.instagram.com/monotone_studio"><i class="fa fa-instagram fa-fw"></i></a></li>
 					<li><a href="https://vk.com/monotone_studio"><i class="fa fa-vk fa-fw"></i></a></li>
-					<li><a href="https://www.facebook.com/monotonedesignstudio"><i class="fa fa-facebook fa-fw"></i></a></li>
+					<li><a href="https://www.facebook.com/studiomonotone"><i class="fa fa-facebook fa-fw"></i></a></li>
 					<li><a href="https://www.behance.net/monotone_studio"><i class="fa fa-behance fa-fw"></i></a></li>
 					
 				
@@ -225,8 +212,8 @@
 		<script src="assets/js/waypoints-sticky.min.js"></script>
 		<script src="assets/js/jquery.fitvids.js"></script>
 		<script src="assets/js/quattro.js"></script>
-
-	<?php include('popup.php'); ?>
+		
+		<?php include('popup.php'); ?>
 	</body>
 	
 </html>
